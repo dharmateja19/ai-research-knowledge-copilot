@@ -332,7 +332,7 @@ http://127.0.0.1:8000/docs
 ### 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/dharmateja19/ai-research-knowledge-copilot
 cd ai-research-knowledge-copilot
 ```
 
@@ -359,8 +359,7 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```env
-POSTGRES_PASSWORD=your_password
-DATABASE_URL=postgresql+psycopg://postgres:your_password@localhost:5434/research_copilot
+DATABASE_URL=postgresql+psycopg://postgres:postgres@localhost:5434/research_copilot
 ```
 
 Do not commit `.env` to GitHub.

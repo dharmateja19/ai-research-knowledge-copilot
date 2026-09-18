@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg[binary]
+pydantic-settings
+python-dotenv
+pypdf
+python-multipart
+langchain-text-splitters
+sentence-transformers
+qdrant-client
+ollama
+redis
+langgraph
+websockets
